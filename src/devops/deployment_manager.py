@@ -1,6 +1,6 @@
 """
 deployment_manager.py
-fix deployment race condition
+implement intelligent deployment strategies
 Created: 2026-05-08 22:11:21
 """
 
@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 class DeploymentManager:
     """
-    fix deployment race condition
+    implement intelligent deployment strategies
 
     This class implements advanced functionality for the AI DevOps Assistant platform.
     """
@@ -64,7 +64,7 @@ class DeploymentManager:
         """Get component information"""
         return {
             "name": self.__class__.__name__,
-            "description": "fix deployment race condition",
+            "description": "implement intelligent deployment strategies",
             "version": self.version,
             "created_at": self.created_at.isoformat()
         }
