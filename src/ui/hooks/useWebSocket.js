@@ -1,7 +1,7 @@
 /**
  * useWebSocket.js
  * add WebSocket hook for real-time data
- * Created: 2026-05-08 22:11:24
+ * Created: 2026-05-08 22:11:25
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
