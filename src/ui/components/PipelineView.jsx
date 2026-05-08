@@ -1,7 +1,7 @@
 /**
  * PipelineView.jsx
  * implement pipeline visualization
- * Created: 2026-05-08 22:11:22
+ * Created: 2026-05-08 22:11:23
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
