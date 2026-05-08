@@ -1,5 +1,5 @@
 # add Kubernetes deployment config
-# Created: 2026-05-08 22:11:26
+# Created: 2026-05-08 22:11:28
 # Component: AI DevOps Assistant
 
 apiVersion: v1
@@ -19,7 +19,7 @@ data:
       name: "AI DevOps Assistant"
       version: "1.0.0"
       description: "add Kubernetes deployment config"
-      created: "2026-05-08 22:11:26"
+      created: "2026-05-08 22:11:28"
 
     ai_engine:
       model_path: "/models/pipeline_optimizer"
