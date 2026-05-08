@@ -1,14 +1,14 @@
 /**
  * MetricsChart.jsx
- * implement real-time metrics charts
- * Created: 2026-05-08 22:11:19
+ * fix chart rendering issue
+ * Created: 2026-05-08 22:11:20
  */
 
 import React, { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 
 /**
- * implement real-time metrics charts
+ * fix chart rendering issue
  * 
  * @param {Object} props - Component props
  * @returns {JSX.Element} Rendered component
@@ -104,7 +104,7 @@ const MetricsChart = ({
   return (
     <div className={`component-container ${className}`}>
       <header className="component-header">
-        <h2>implement real-time metrics charts</h2>
+        <h2>fix chart rendering issue</h2>
         <div className="metrics">
           <span>Processed: {metrics.processed}</span>
           <span>Errors: {metrics.errors}</span>
