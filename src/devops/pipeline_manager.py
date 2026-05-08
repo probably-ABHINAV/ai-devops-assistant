@@ -1,7 +1,7 @@
 """
 pipeline_manager.py
-optimize pipeline execution performance
-Created: 2026-05-08 22:11:20
+add CI/CD pipeline management
+Created: 2026-05-08 22:11:21
 """
 
 import logging
@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 class PipelineManager:
     """
-    optimize pipeline execution performance
+    add CI/CD pipeline management
 
     This class implements advanced functionality for the AI DevOps Assistant platform.
     """
@@ -64,7 +64,7 @@ class PipelineManager:
         """Get component information"""
         return {
             "name": self.__class__.__name__,
-            "description": "optimize pipeline execution performance",
+            "description": "add CI/CD pipeline management",
             "version": self.version,
             "created_at": self.created_at.isoformat()
         }
