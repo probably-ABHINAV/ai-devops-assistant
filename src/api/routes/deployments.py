@@ -1,6 +1,6 @@
 """
 deployments.py
-fix deployment status endpoint
+add deployment management endpoints
 Created: 2026-05-08 22:11:27
 """
 
@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 class Deployments:
     """
-    fix deployment status endpoint
+    add deployment management endpoints
 
     This class implements advanced functionality for the AI DevOps Assistant platform.
     """
@@ -64,7 +64,7 @@ class Deployments:
         """Get component information"""
         return {
             "name": self.__class__.__name__,
-            "description": "fix deployment status endpoint",
+            "description": "add deployment management endpoints",
             "version": self.version,
             "created_at": self.created_at.isoformat()
         }
